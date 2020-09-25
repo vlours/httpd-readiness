@@ -1,3 +1,3 @@
 FROM centos:8
 RUN yum install httpd -y && systemctl enable httpd 
-ENTRYPOINT /bin/init
+ENTRYPOINT /usr/sbin/init
